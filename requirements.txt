@@ -1,0 +1,6 @@
+# Flask Environment
+flask
+flaks_login
+
+# venv starting
+.venv\Scripts\activate
