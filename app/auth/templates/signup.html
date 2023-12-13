@@ -4,23 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('.static',filename='styles/login.css') }}" />
-    <title>Login</title>
+    <title>Registro</title>
+    <link rel="stylesheet" href="{{ url_for('.static',filename='styles/signup.css') }}"/>
 
 </head>
 
 <body>
     <header>
-        <img src="{{ url_for('static', filename='images/logo.png') }}">
+        <img src="{{ url_for('static',filename='images/logo.png') }}">
         <h2>O bem estar do seu pet começa aqui</h2>
     </header>
-    <form action="{{ url_for('Auth.login') }}" method="post">
-        <input type="text" placeholder="Login" id="login" name="user_login">
-        <input type="password" placeholder="Senha" id="senha" name="user_password">
-        <input type="submit" class="enviar">
-        <a href="esqueciMinhaSenha">Esqueci minha senha</a>
-        <a href="registro">Registre-se</a>
+    <form>
+        <input type="text" placeholder="Nome Completo" id="nome" name="user_login">
+        <input type="number" min="0" max="99999999999" placeholder="CPF" id="CPF">
+        <input type="email" placeholder="Email" id="email">
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" class="enviar" value="Enviar" onclick="">
+        <a  class="registro" href="company">Trabalhe conosco!</a>
     </form>
 </body>
+
 
 </html>

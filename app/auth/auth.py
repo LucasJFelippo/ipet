@@ -16,12 +16,22 @@ def login_process():
     return "Teste"
 
 
-
 @auth.route("/signup")
 def signup():
-    return "Pagina de Signup"
+    return render_template("signup.html")
 
 @auth.route("/signup", methods=['POST'])
 def signup_process():
-    print("Entrou")
-    return "Pagina de Signup"
+
+    print(request.form["user_login"])
+    return "Test"
+
+
+@auth.route("/company")
+def company():
+    return render_template("register_company.html")
+
+@auth.route("/company", methods=['POST'])
+def company_process():
+
+    return "Test"

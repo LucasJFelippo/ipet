@@ -1,0 +1,30 @@
+<div class="linhas">
+    <div class="produto">
+        <img class="imgProd" src="{{ product_pair[0]['picture'] }}">
+
+        <div class="conteudoEmpresa">
+            <div class="nome-preço">
+                <div class="nomeProd">{{ product_pair[0]['name'] }} </div>
+                <div class="precoProd">{{ product_pair[0]['price'] }} R$ </div>
+            </div>
+            <div class="quant-compra">
+                <input type="number" min="0" step="1" class="quant">
+                <a href="#" class="comprar">Adicionar ao carrinho</a>
+            </div>
+        </div>
+    </div>
+    <div class="produto">
+        <img class="imgProd" src="{{ product_pair[1]['picture'] }}">
+    
+        <div class="conteudoEmpresa">
+            <div class="nome-preço">
+                <div class="nomeProd">{{ product_pair[1]['name'] }} </div>
+                <div class="precoProd">{{ product_pair[1]['price'] }} R$ </div>
+            </div>
+            <div class="quant-compra">
+                <input type="number" min="0" step="1" class="quant">
+                <a href="#" class="comprar">Adicionar ao carrinho</a>
+            </div>
+        </div>
+    </div>
+</div>

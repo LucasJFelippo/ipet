@@ -2,5 +2,8 @@
 flask
 flaks_login
 
+# Firebase Environment
+firebase_admin
+
 # venv starting
 .venv\Scripts\activate

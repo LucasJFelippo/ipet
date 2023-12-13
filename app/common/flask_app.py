@@ -1,6 +1,4 @@
-from threading import Lock, Thread
-
-import os
+from threading import Lock
 
 from typing import List
 

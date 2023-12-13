@@ -1,4 +1,5 @@
 features_with_blueprint = [
     "auth",
-    "home"
+    "home",
+    "products"
 ]

@@ -1,0 +1,114 @@
+{
+    "if7mf9ipdd4v": {
+        "id": "if7mf9ipdd4v",
+        "name": "Golden Special 15kg",
+        "price": 149.90,
+        "tags": [
+            "racao",
+            "golden",
+            "cachorro",
+            "cao"
+        ],
+        "weight": 15,
+        "picture": "https://m.media-amazon.com/images/I/61krIHXdNGS._AC_SX679_.jpg"
+    },
+    "et2czb14mec8": {
+        "id": "et2czb14mec8",
+        "name": "Golden Special 1kg",
+        "price": 56.10,
+        "tags": [
+            "racao",
+            "golden",
+            "cachorro",
+            "cao"
+        ],
+        "weight": 1,
+        "picture": "https://m.media-amazon.com/images/I/61GIuEPYHmL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    "liyduyw46gvw": {
+        "id": "liyduyw46gvw",
+        "name": "Rope Catchball Chalesco",
+        "price": 23.90,
+        "tags": [
+            "brinquedo",
+            "cachorro",
+            "catchball",
+            "chalesco",
+            "corda",
+            "cao"
+        ],
+        "weight": -1,
+        "picture": "https://m.media-amazon.com/images/I/511QOFK0poL._AC_SX679_.jpg"
+    },
+    "d6ryyx0glqbk": {
+        "id": "d6ryyx0glqbk",
+        "name": "Ossinho DogPets",
+        "price": 39.90,
+        "tags": [
+            "brinquedo",
+            "cachorro",
+            "osso",
+            "dogpets",
+            "corda",
+            "cao"
+        ],
+        "weight": -1,
+        "picture": "https://m.media-amazon.com/images/I/41X7uaewh0L._AC_.jpg"
+    },
+    "eb3ha4el990q": {
+        "id": "eb3ha4el990q",
+        "name": "Golden Special 15kg",
+        "price": 149.90,
+        "tags": [
+            "racao",
+            "golden",
+            "cachorro",
+            "cao"
+        ],
+        "weight": 15,
+        "picture": "https://m.media-amazon.com/images/I/61krIHXdNGS._AC_SX679_.jpg"
+    },
+    "9px7u6xzh973": {
+        "id": "9px7u6xzh973",
+        "name": "Golden Special 1kg",
+        "price": 56.10,
+        "tags": [
+            "racao",
+            "golden",
+            "cachorro",
+            "cao"
+        ],
+        "weight": 1,
+        "picture": "https://m.media-amazon.com/images/I/61GIuEPYHmL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    "geu9qurz1cqr": {
+        "id": "geu9qurz1cqr",
+        "name": "Rope Catchball Chalesco",
+        "price": 23.90,
+        "tags": [
+            "brinquedo",
+            "cachorro",
+            "catchball",
+            "chalesco",
+            "corda",
+            "cao"
+        ],
+        "weight": -1,
+        "picture": "https://m.media-amazon.com/images/I/511QOFK0poL._AC_SX679_.jpg"
+    },
+    "y51mw9n1xpbi": {
+        "id": "y51mw9n1xpbi",
+        "name": "Ossinho DogPets",
+        "price": 39.90,
+        "tags": [
+            "brinquedo",
+            "cachorro",
+            "osso",
+            "dogpets",
+            "corda",
+            "cao"
+        ],
+        "weight": -1,
+        "picture": "https://m.media-amazon.com/images/I/41X7uaewh0L._AC_.jpg"
+    }
+}

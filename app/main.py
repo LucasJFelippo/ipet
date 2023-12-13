@@ -17,6 +17,7 @@ def get_blueprints(name_List) -> List:
         blueprint_list.append(b)
     return blueprint_list
 
+
 def main() -> None:
     flaskApp = FlaskApp()
     flaskApp.register_blueprints(get_blueprints(features_with_blueprint))

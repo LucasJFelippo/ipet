@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Empresas</title>
+    <link rel="stylesheet" href="{{ url_for('.static',filename='styles/register_company.css') }}"/>
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static',filename='images/logo.png') }}">
+        <h2>O bem estar do seu pet começa aqui</h2>
+    </header>
+    <form action="{{ url_for('Auth.company') }}">
+        <div>Dados da Empresa</div>
+        <input type="text" placeholder="Nome da empresa" id="nomeEmpresa">
+        <input type="number" placeholder="Telefone da empresa" id="telefoneEmpresa">
+        <input type="number" min="0" max="99999999999999" placeholder="CNPJ da empresa" id="CNPJ">
+        <div>Endereço da Empresa</div>
+        <input type="number" min="0" max="99999999" placeholder="Cep" id="cep">
+        <input type="text" placeholder="Estado" id="estado">
+        <input type="text" placeholder="Cidade" id="cidade">
+        <input type="text" placeholder="Bairro" id="bairro">
+        <input type="text" placeholder="Endereço" id="endereço">
+        <input type="number" min="0" placeholder="Número" id="numero">
+        <input type="text" placeholder="Complemento" id="complemento">
+        <div>Dados do Responsavel</div>
+        <input type="text" placeholder="Nome Completo" id="nomeEmpresario">
+        <input type="email" placeholder="Email" id="emailEmpresario">
+        <input type="number" min="0" placeholder="Telefone de contato" id="telefoneEmpresario">
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" class="enviar" value="Enviar" onclick="">
+    </form>
+</body>
+
+
+</html>
